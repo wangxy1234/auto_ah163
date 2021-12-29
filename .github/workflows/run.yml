@@ -41,5 +41,10 @@ jobs:
       - name: Run APP
         env:
           TOKEN_DATA: ${{secrets.TOKEN_DATA}}
+            # 运行
+      - name: Run APP
+        env:
+          TOKEN_DATA: ${{secrets.TOKEN_DATA1}}
+
 
         run: npm run start
